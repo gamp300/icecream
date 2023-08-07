@@ -12,7 +12,7 @@
   font-family: monospace;
   font-size: 16px;
   font-weight: 700;
-  background-color: #ff6b0a;
+  background-color: $color-primary;
   color: #fff;
   padding: 2px 6px;
   border-radius: 2px;
@@ -25,4 +25,12 @@
   background-image: url('../images/logo.png');
   background-size: cover;
   background-position: center;
+}
+
+p {
+  font-family: 'Titan One', cursive;
+}
+
+.header {
+  color: $color-text-primary;
 }
