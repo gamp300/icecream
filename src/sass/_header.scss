@@ -1,0 +1,23 @@
+
+p {
+    font-family: 'Titan One', cursive;
+}
+
+span {
+    color: $color-text-primary;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.color-backgroud{
+    background-color: $color-background;
+}
+
+a{
+    color: white;
+}
