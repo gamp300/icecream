@@ -12,12 +12,22 @@ span {
     gap: 50px;
     justify-content: space-between;
     align-items: center;
+    &__link{
+        position: relative;
+        display: inline-block;
+        color: #fff;
+        &:hover {
+            cursor: pointer;
+            color: $color-primary;
+        }
+    }
+    &__current {
+        color: $color-primary;
+
+        
+    }
 }
 
 .color-backgroud{
     background-color: $color-background;
-}
-
-a{
-    color: white;
 }
