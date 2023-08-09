@@ -3,7 +3,7 @@ h1 {
     font-family: 'Titan One', cursive;
 }
 
-span {
+.span {
     width: 277px;
     font-size: 58px;
     color: $color-text-primary;
@@ -41,10 +41,23 @@ span {
         display: flex;
         align-items:center;
     }
+    &__circle{
+    position: absolute;
+    width: 534px;
+    height: 534px;
+    background-color: $color-secundary;
+    border-radius: 50%;
+    z-index:1;
+    right: 20px;
+    top: 50px;
+    }
     &__img{
         display: block;
         margin: 40px 16px;
         width: 213px;
+    }
+    &__img3{
+        margin-top: 104px;      
     }
     &__parr2{
         max-width: 200px;
@@ -55,11 +68,25 @@ span {
         color: white;
         Weight:400;
     }
+    &__img-ontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__cafes{
+        padding-top: 20px;
+    }
+    &__button{
+        color: $color-primary;
+        width: 159px;
+        border-radius: 22px;
+        border: 0;
+        padding: 10px;
+        height: 40px;
+        &:hover{
+            background-color: $color-primary;
+            color: #fff;
+        }
+    }
 }
 
-.circle{
-    width: 534px;
-    height: 534px;
-    background-color: $color-secundary;
-    border-radius: 50%;
-}
