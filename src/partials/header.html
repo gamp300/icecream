@@ -3,15 +3,34 @@
         <svg>
             <use xlink:href="/src/images/icons.svg#icon-icono"></use>
         </svg>
-        <ul class="menu">
+        <ul class="menu menu__links">
             <li><a class="menu__link menu__current" href="#">Home</a></li>
             <li><a class="menu__link" href="#">About us</a></li>
             <li><a class="menu__link" href="#">How it’s made?</a></li>
             <li><a class="menu__link" href="#">Our products</a></li>
             <li><a class="menu__link" href="#">Contact</a></li>
         </ul>
-        <button class="header__button">Buy now  ></button>
+        <div class="menu__mov">        
+            <button class="menu__toggle js-open-menu"
+                aria-expanded="false"
+                aria-controls="mobile-menu">
+                <svg
+                    width="30"
+                    height="auto"
+                    fill="#d41443"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd">
+                    </path>
+                </svg>
+            </button>
+            <button class="header__button">Buy now  ></button>
+        </div>
     </nav>
+
     <section class="menu">
         <div>
             <h1 class="header__parr1">ICE CREAM  <br>MADE WITH  <br> <span class="span">PASSION</span></h1>
@@ -22,14 +41,11 @@
                 <p class="header__parr2">Indulge in a scoop of ice cream made with passion and treat your taste buds to an unforgettable experience!</p>
             </div>
         </div>
-            <img src="/src/images/slider-2.png" alt="Helado" width="226">
+            <img class="header__img2" src="/src/images/slider-2.png" alt="Helado">
         <div class="header__img-ontainer">
             <img class="header__cafes" src="/src/images/cafes.png" alt="Cafes">
             <img class="header__cafes" src="/src/images/food.png" alt="Food">
             <img class="header__img3" src="/src/images/slider-3.png" alt="Modelo con helado">
         </div>
-        <!-- <div class="header__circle"></div>
-        <div>
-        </div> -->
     </section>
 </header>
