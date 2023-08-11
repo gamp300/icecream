@@ -1,0 +1,171 @@
+h2,h3{
+    margin: 0;
+    padding: 0;
+}
+
+.cafe{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px ;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+        
+    
+       @media screen and (min-width:768px) {
+           max-width: 768px;
+           flex-direction: row;
+           gap: 32px ;
+        }
+    
+       @media screen and (min-width:1200px) {
+           max-width: 1200px;
+        }
+      
+
+}
+
+.cafe__contact{
+
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: rgba(144, 126, 130, 1);
+    padding-top: 5px;
+    @media screen and (min-width:768px) {
+        font-size: 14px;
+     }
+     @media screen and (min-width:1200px) {
+        font-size: 16px;
+     }
+
+
+}
+.cafe__time{
+    color:rgba(255, 165, 186, 1);
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    padding-bottom: 8px;
+    @media screen and (min-width:768px) {
+        font-size: 14px;
+     }
+     @media screen and (min-width:1200px) {
+        font-size: 16px;
+     }
+
+    
+}
+.cafe__title{
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color:rgba(0, 0, 0, 1);
+    @media screen and (min-width:768px) {
+        font-size: 14px;
+     }
+     @media screen and (min-width:1200px) {
+        font-size: 16px;
+     }
+
+
+}
+
+.cafe__information{
+    color: rgba(144, 126, 130, 1);
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    padding-top: 8px;
+    
+    @media screen and (min-width:768px) {
+        font-size: 14px;
+     }
+     @media screen and (min-width:1200px) {
+        font-size: 16px;
+     }
+
+}
+
+.cafe__header{
+    color:rgba(255, 255, 255, 1) ;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    background-color: rgba(240, 209, 165, 1);
+    width: 80px ;
+    margin-bottom:20px ;
+    border-radius: 5px;
+    @media screen and (min-width:768px) {
+        font-size: 16px;
+        width: 73px ;
+     }
+     
+}
+
+.foodtruck__header{
+    color:rgba(255, 255, 255, 1) ;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    background-color:rgba(194, 226, 151, 1);
+    width: 130px ;
+    margin-bottom:20px ;
+    border-radius: 5px;
+    @media screen and (min-width:768px) {
+        font-size: 16px;
+        width: 138px ;
+     }
+     
+}
+
+
+.cafe__item{
+    width: 280px;
+    height: 412px;
+    border: 1px solid rgba(225, 225, 225, 1);
+    border-radius: 25px;
+    padding: 40px 16px 40px 32px;
+    background-color: rgba(255, 255, 255, 1);
+
+    @media screen and (min-width:768px) {
+        width: 224px;
+        height: 450px;
+        
+     }
+ 
+    @media screen and (min-width:1200px) {
+        width: 368px;
+       
+     }
+}
+
+.border{
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(225, 225, 225, 1);
+}
+
+.padding24{
+    padding-top: 24px;
+}
+
+.cafe__contact:hover{
+    color:rgba(212, 20, 67, 1);
+    cursor: pointer;
+}
