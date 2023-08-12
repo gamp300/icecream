@@ -23,7 +23,7 @@ ul,li,p,body{
 }
 
 .btn{
-    font-family: DM Sans;
+    font-family: $main-font;
     font-size: 16px;
     font-weight: 700;
     line-height: 21px;
@@ -43,13 +43,13 @@ ul,li,p,body{
 
 .franchise-color{
     padding-left: 32px;
-    color:rgba(212, 19, 66, 1) ;
-    background-color:rgba(255, 255, 255, 1);
+    color:$main-color;
+    background-color:$white-color;
 }
 .location-color{
     padding-left: 17px;
-    color:rgba(255, 255, 255, 1);
-    background-color:rgba(212, 19, 66, 1);
+    color:$white-color;
+    background-color:$main-color;
 }
 
 .arrow-icon{
@@ -63,24 +63,22 @@ ul,li,p,body{
 }
 
 .svg-location-color{
-    stroke:rgba(255, 255, 255, 1);
+    stroke:$white-color;
 }
 
 .svg-franchise-color{
-    stroke: rgba(212, 19, 66, 1);
+    stroke: $main-color;
 }
 
 .footer__text{
-    font-family: Titan One;
+    font-family: $theme-font;
     font-weight: 400;
     letter-spacing: 0em;
-    text-align: left;
-    
 }
 
 
 .footer__text--made{
-    color: rgba(255, 165, 186, 1);
+    color: $secundary-color;
     font-size: 18px;
     line-height: 24px;
     padding-right: 56px;
@@ -99,7 +97,7 @@ ul,li,p,body{
 }
 
 .footer__text--passion{
-    color:rgba(212, 20, 67, 1);
+    color:$main-color;
     font-size: 34px;
     line-height: 39px;
     padding-bottom: 40px ;
@@ -131,7 +129,7 @@ ul,li,p,body{
 }
 
 .footer__contacs{
-    font-family: DM Sans;
+    font-family: $main-font;
     letter-spacing: 0em;
     line-height: 22px;
     display: flex;
@@ -144,24 +142,24 @@ ul,li,p,body{
 .footer__contacs--text{
 font-size: 12px;
 font-weight: 500;
-color:rgba(0, 0, 0, 1) ;
+color:$black-color;
 }
 
 .footer__contacs--phone{
 font-size: 12px;
 font-weight: 700;
-color:rgba(212, 20, 67, 1) ;
+color:$main-color;
 }
 
 .footer__rights{
-    color: rgba(144, 126, 130, 1);
-    font-family: DM Sans;
+    color: $cafe-color;
+    font-family: $main-font;
     font-size: 14px;
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 0em;
     text-align: center;
-    border-top: 1px solid rgba(225, 225, 225, 1);
+    border-top: 1px solid $white-color;
     padding-top: 7px;
     display: flex;
     flex-direction: column;
@@ -195,10 +193,10 @@ color:rgba(212, 20, 67, 1) ;
 
 }    
 .footer__icon{
-    fill:#FEA5BB;
+    fill:$secundary-color;
 }
 
 .footer__icon:hover{
     cursor: pointer;
-    fill: rgba(212, 20, 67, 1);  
+    fill: $main-color;  
 }
