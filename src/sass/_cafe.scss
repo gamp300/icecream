@@ -1,0 +1,171 @@
+h2,h3{
+    margin: 0;
+    padding: 0;
+}
+
+.cafe{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px ;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+        
+    
+       @media screen and (min-width:768px) {
+           max-width: 768px;
+           flex-direction: row;
+           gap: 32px ;
+        }
+    
+       @media screen and (min-width:1200px) {
+           max-width: 1200px;
+        }
+      
+
+}
+
+.cafe__contact{
+
+    font-family: $main-font;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: $cafe-color;
+    padding-top: 5px;
+    @media screen and (min-width:768px) {
+        font-size: 14px;
+     }
+     @media screen and (min-width:1200px) {
+        font-size: 16px;
+     }
+
+
+}
+.cafe__time{
+    color: $secundary-color;
+    font-family: $main-font;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    padding-bottom: 8px;
+    @media screen and (min-width:768px) {
+        font-size: 14px;
+     }
+     @media screen and (min-width:1200px) {
+        font-size: 16px;
+     }
+
+    
+}
+.cafe__title{
+    font-family: $main-font;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color:$black-color;
+    @media screen and (min-width:768px) {
+        font-size: 14px;
+     }
+     @media screen and (min-width:1200px) {
+        font-size: 16px;
+     }
+
+
+}
+
+.cafe__information{
+    color: $cafe-color;
+    font-family: $main-font;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    padding-top: 8px;
+    
+    @media screen and (min-width:768px) {
+        font-size: 14px;
+     }
+     @media screen and (min-width:1200px) {
+        font-size: 16px;
+     }
+
+}
+
+.cafe__header{
+    color: $white-color;
+    font-family: $main-font;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    background-color: $cafe-bg-color;
+    width: 80px ;
+    margin-bottom:20px ;
+    border-radius: 5px;
+    @media screen and (min-width:768px) {
+        font-size: 16px;
+        width: 73px ;
+     }
+     
+}
+
+.foodtruck__header{
+    color: $white-color ;
+    font-family: $main-font;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    background-color:$foodtruck-bg-color;
+    width: 130px ;
+    margin-bottom:20px ;
+    border-radius: 5px;
+    @media screen and (min-width:768px) {
+        font-size: 16px;
+        width: 138px ;
+     }
+     
+}
+
+
+.cafe__item{
+    width: 280px;
+    height: 412px;
+    border: 1px solid $black-color;
+    border-radius: 25px;
+    padding: 40px 16px 40px 32px;
+    background-color: $white-color;
+
+    @media screen and (min-width:768px) {
+        width: 224px;
+        height: 450px;
+        padding-left: 24px;   
+     }
+ 
+    @media screen and (min-width:1200px) {
+        width: 368px;
+        padding-left: 32px;
+     }
+}
+
+.border{
+    padding-bottom: 24px;
+    border-bottom: 1px solid $white-color;
+}
+
+.padding24{
+    padding-top: 24px;
+}
+
+.cafe__contact:hover{
+    color:$main-color;
+    cursor: pointer;
+}
