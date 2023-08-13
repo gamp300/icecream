@@ -80,6 +80,11 @@
     
 }
 
+.testimonial__text::before{
+    border: 1px solid red;
+}
+
+
 .testimonial__user{
     font-family: $main-font;
     font-size: 14px;
