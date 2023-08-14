@@ -63,7 +63,7 @@ ul,li,p,body{
 }
 
 .svg-location-color{
-    stroke:$white-color;
+    stroke:rgba(225, 225, 225, 1);
 }
 
 .svg-franchise-color{
@@ -159,7 +159,7 @@ color:$main-color;
     line-height: 21px;
     letter-spacing: 0em;
     text-align: center;
-    border-top: 1px solid $white-color;
+    border-top: 1px solid rgba(225, 225, 225, 1);
     padding-top: 7px;
     display: flex;
     flex-direction: column;
