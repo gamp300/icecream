@@ -15,6 +15,10 @@
 .trad{
     background-color: #FFF5F6;
     padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
     &__p1{
         font-family: 'Titan One', cursive;
         text-align: center;
@@ -32,13 +36,9 @@
     }
     &__column{
         display: flex;
-        justify-content: center;        
+        flex-direction: column;      
     }
-    &__img{
-        width: 501px;
-        height: auto;
-        margin: 10px;
-    }
+   
     &__row{
         padding: 100px;
     }
@@ -112,9 +112,7 @@
 
     @media (max-width: 768px) {
         &__img{
-            width: 336px;
-            height: 335px;
-            margin: 50px 0 0 50px;
+            
         }
     }
     &__row{
@@ -153,9 +151,7 @@
             display: block;   
         }
         &__img{
-            width: 280px;
-            height: 279px;
-            margin: 0;
+            
         }
         &__p3{
             width: 220px;

@@ -33,6 +33,8 @@ ul,li,p,body{
     height: 44px;
     border: none;
     text-align: left;
+    color:$main-color;
+    background-color:$white-color;
     
 }
 
@@ -43,13 +45,18 @@ ul,li,p,body{
 
 .franchise-color{
     padding-left: 32px;
-    color:$main-color;
-    background-color:$white-color;
 }
 .location-color{
     padding-left: 17px;
+}
+
+.location-color:hover,.franchise-color:hover {
     color:$white-color;
     background-color:$main-color;
+}
+
+.footer__btn:hover .arrow-icon{
+    stroke: white;
 }
 
 .arrow-icon{
@@ -62,13 +69,12 @@ ul,li,p,body{
     }
 }
 
-.svg-location-color{
-    stroke:rgba(225, 225, 225, 1);
-}
 
-.svg-franchise-color{
+.svg-franchise-color,.svg-location-color{
     stroke: $main-color;
 }
+
+
 
 .footer__text{
     font-family: $theme-font;

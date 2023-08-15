@@ -7,11 +7,21 @@ h1 {
     width: 277px;
     font-size: 58px;
     color: $color-text-primary;
+    font-family: Titan One;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    
 }
 
+
+button.menu-toggle.js-open-menu {
+    padding-top: 19px;
+}
 .menu {
     display: flex;
-    gap: 50px;
+    
     justify-content: space-between;
     align-items: center;
     &__backgroud{
@@ -25,9 +35,15 @@ h1 {
         }
     }
     &__link{
-        position: relative;
-        display: inline-block;
+        display: flex;
         color: #fff;
+        font-family: DM Sans;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0em;
+        margin-left: 20px;
+        
         &:hover {
             cursor: pointer;
             color: $color-primary;
@@ -109,7 +125,7 @@ h1 {
         display: flex;
         flex-direction: column;
         padding: 0;
-        margin: 0;
+        margin-top: 32px;
         list-style: none;
     }
     
@@ -126,7 +142,7 @@ h1 {
     left: 0;
     width: 100vw;
     height: 100vh;
-    padding: 32px;
+    
     background-color: $color-background-mobile;
     z-index: 999;
 
@@ -150,22 +166,31 @@ h1 {
     border-radius: 50%;
 }
 
-.mobile-menu a {
-}
 
 .mobile-container {
     width: 100%;
     margin: 5% 25%;
-    position: relative;
 }
 
+.svg-close:hover{
+cursor: pointer;
+}
 .mobile__button {
-    width: 50%;
+    width: 209px;
     color: $color-primary;
     border-radius: 22px;
     border: 0;
     padding: 10px;
-    height: 40px;
+    height: 44px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 60px;
+    
+
 }
 
 
@@ -178,6 +203,11 @@ h1 {
         color: white;
         font-size: 38px;
         margin: 10px;
+        font-family: Titan One;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.04em;
     }
     &__div{
         display: flex;
@@ -225,11 +255,17 @@ h1 {
     }
     &__button2 {
         color: $color-primary;
-        width: 159px;
         border-radius: 22px;
         border: 0;
-        padding: 10px;
-        height: 40px;
+        font-family: DM Sans;
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 62.4px;
+        height: 24px;
+
 
         &:hover {
             background-color: $color-primary;
@@ -238,11 +274,19 @@ h1 {
     }
     &__button3 {
         color: $color-primary;
-        width: 159px;
         border-radius: 22px;
         border: 0;
         padding: 10px;
         height: 40px;
+        font-family: DM Sans;
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 82.8px;
+        height: 24px;
+
 
         &:hover {
             background-color: $color-primary;
@@ -299,11 +343,10 @@ h1 {
         }
         &__button2 {
             color: $color-primary;
-            width: 128px;
             border-radius: 22px;
             border: 0;
-            padding: 10px;
-            height: 40px;
+            
+            
 
             &:hover {
                 background-color: $color-primary;
@@ -312,11 +355,11 @@ h1 {
         }
         &__button3 {
             color: $color-primary;
-            width: 128px;
+            
             border-radius: 22px;
             border: 0;
             padding: 10px;
-            height: 40px;
+            
 
             &:hover {
                 background-color: $color-primary;
@@ -358,11 +401,8 @@ h1 {
         }
         &__button2 {
             color: $color-primary;
-            width: 80px;
             border-radius: 22px;
             border: 0;
-            padding: 10px;
-            height: 40px;
             margin-bottom: 300px;
 
             &:hover {
@@ -373,11 +413,8 @@ h1 {
 
         &__button3 {
             color: $color-primary;
-            width: 112px;
             border-radius: 22px;
             border: 0;
-            padding: 10px;
-            height: 40px;
             padding: 0;
 
             &:hover {
@@ -386,4 +423,19 @@ h1 {
             }
         }
     }
+}
+
+.header__btns{
+    display: flex;
+    gap: 9.2px;
+    padding-top: 20px;
+}
+hr{
+    border: 1px solid rgba(225, 130, 152, 1);
+    
+}
+
+.mobile__button:hover {
+    color: white;
+    background-color: $main-color;
 }
